@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.div1{
+			background-color:#dd4012;
+			width:150px;
+			height:70px;
+			line-height:70px;
+			text-align: center;
+			animation:donghua 5s infinite;
+			animation:donghua 5s altermate;
+			font-family: "微软雅黑";
+			font-size: 22px;
+			color:#FFF;
+		}
+		@keyframes donghua{
+			0%{
+				transform:rotate(0deg);
+			}
+			20%{
+				margin-left:0;
+				transform:rotate(180deg);
+				background-color:#54f939;
+			}
+			40%{
+				margin-left:20px;
+				transform:rotate(180deg);
+				background-color:#147ee2;
+			}
+			60%{
+				margin-left:40px;
+				transform:rotate(360deg);
+			}	
+			80%{
+				margin-left:40px;
+				transform:rotate(180deg);
+			}
+			100%{
+				margin-left:60px;
+				transform:rotate(0deg);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="div1">CSS3动画</div>
+</body>
+</html>
