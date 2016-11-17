@@ -1,0 +1,17 @@
+@inner-blue:#cd99cd;
+.div1{
+	color: @inner-blue;
+	.border;
+	.radius(5px);
+}
+.border{
+	border-top:1px solid #f99;
+	border-right:1px solid #00f;
+	border-left:1px solid orange;
+	border-bottom:1px solid #333;
+}
+.radius(@value){
+	-webkit-border-radius:@value;
+	-moz-border-radius:@value;
+	border-radius:@value;
+}
